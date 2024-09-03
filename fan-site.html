@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Fan Book site</title>
+    <style>
+        .mypic{
+            width:100%;
+            height: 400px;
+            background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://wallpaperbat.com/img/68488-ive-created-a-high-resolution-desktop-wallpaper-of-the-lover.jpg');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .mypost{
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto 20px auto;
+            padding:20px;
+            border-bottom: 0px 0px 3px 0px ;
+            border: 2px solid grey;
+        }
+        .mypost>button{
+            margin-top: 15px;
+        }
+        .mycards{
+            width: 95%;
+            max-width: 500px;
+            margin:auto;
+        }
+        .mycards>.card{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mypic">
+        <h1>Taylor Swift Fan Book</h1>
+    </div>
+
+    <div class="mypost">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Enter your Nickname here">
+            <label for="floatingInput">Nickname</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Fan Message</label>
+        </div>
+        <button type="button" class="btn btn-dark">Leave a fan message</button>
+    </div>
+
+    <div class="mycards">
+        <div class="card">
+            
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Amazing, Loved it!!</p>
+                <footer class="blockquote-footer">Wonderwomen09 </footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>You are my all-time Favorite.</p>
+                <footer class="blockquote-footer">Luna005 <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>You are the synonym for "Nailed it".</p>
+                <footer class="blockquote-footer">Demon_slayer444 <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Goosebumps!!!</p>
+                <footer class="blockquote-footer">Precious_pearl29 <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
